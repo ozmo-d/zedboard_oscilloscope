@@ -1,3 +1,13 @@
+# Zedboard Oscilloscope
+
+## Description
+This is a prototype basic sampling oscilloscope, which uses the ADC of the Zynq7000. The main features are:
+-Custom XADC 'TriggerAcquire' block, with circular buffer, configurable triggers, and AXI interface, for high-speed sampling.
+-Software for controlling trigger and display using serial.
+-VGA display built using Xilinx IP blocks, custom firmware for double buffering, text display and Bresenham's line algorithm
+
+
+## Build instructions
 1. Open Vivado
 2. Use the tcl console to navigate to the directory containing the project.tcl script
 	ie: "cd C:/Users/wesleyk/Desktop/Ensc452/project_demo/scripts"
