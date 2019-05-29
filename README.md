@@ -3,8 +3,8 @@
 ## Description
 This is a prototype basic sampling oscilloscope, which uses the ADC of the Zynq7000. The main features are:
 1. Custom XADC 'TriggerAcquire' block, with circular buffer, configurable triggers, and AXI interface, for high-speed sampling.
-1. Software for controlling trigger and display using serial.
-1. VGA display built using Xilinx IP blocks, custom firmware for double buffering, text display and Bresenham's line algorithm
+2. Oscilloscope controlled over serial to set time resolution, triggering conditions, etc.
+3. Custom firmware for double buffering, text display and Bresenham's line algorithm
 
 
 ## Build instructions
